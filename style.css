@@ -1,0 +1,75 @@
+body{
+margin:0;
+font-family:'Segoe UI', sans-serif;
+background: linear-gradient(135deg,#141e30,#243b55);
+color:white;
+text-align:center;
+}
+
+/* Container */
+.container{
+margin-top:40px;
+}
+
+/* Network layout */
+.network{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:60px;
+position:relative;
+}
+
+/* Nodes */
+.node{
+background:white;
+color:black;
+padding:20px;
+border-radius:12px;
+width:120px;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Lines */
+.line{
+width:120px;
+height:4px;
+background:white;
+}
+
+/* Packet */
+#packet{
+width:20px;
+height:20px;
+background:orange;
+border-radius:50%;
+position:absolute;
+top:190px;
+left:calc(50% - 260px);
+transition:all 1s ease;
+box-shadow:0 0 10px orange;
+}
+
+/* Button */
+button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+border-radius:25px;
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+/* Status */
+#status{
+margin-top:30px;
+font-size:18px;
+font-weight:bold;
+}
